@@ -1,0 +1,9 @@
+set bell-style none
+set colored-stats on
+set completion-ignore-case on
+set show-all-if-ambiguous on
+set show-all-if-unmodified on
+set skip-completed-text on
+
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
